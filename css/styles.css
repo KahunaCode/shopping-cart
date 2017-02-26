@@ -1,11 +1,29 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body{
 	font-family: 'Roboto Condensed', sans-serif;
 	background-color: grey;
 }
 
-h1{
-	color:blue;
+#container{
+	margin: 25px auto;
+	width: 1200px;
+	background-color: white;
+	border-radius: 15px;
 }
+
+#header{
+	width: 100%;
+	background-color: #ed7825;
+	padding: 15px;
+}
+
+
 
 /*#shopping-cart{
 	background-color: white;
