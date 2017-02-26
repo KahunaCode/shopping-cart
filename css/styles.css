@@ -51,6 +51,16 @@ h1{
 	width:50px;
 	height:50px;
 	float: left;
+	margin-right: 25px;
+}
+
+.productDescription{
+	font-size: 10px;
+	color: grey;
+}
+
+.price{
+	text-align: right;
 }
 
 /*#shopping-cart{
