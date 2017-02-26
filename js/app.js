@@ -13,6 +13,7 @@ for (var i = 0; i<stuff.length; i++){
 	var productPic = document.createElement("div");
 	productPic.className = "pPic"
 	picElem = document.createElement("img")
+	picElem.className = "pEl"
 	picElem.src = pics[i]
 	productPic.appendChild(picElem)
 	
