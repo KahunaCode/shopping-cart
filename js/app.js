@@ -1,0 +1,45 @@
+console.log("asdfasdfsdfasdfas")
+
+var stuff = [{product: "Finger Toothbrush", description: "A helping hand to a nicer smile.", price: 1.11}, {product: "Barry Manilow's Greatest Hits Collection Vol 1", description: "Music the way it should be! Reminisce the past glory as your ship to happiness has sailed.", price: 39.57}, {product: "Ramen Oreos", description: "The overly used cliche 'East Meets West' comes to life as Nabisco has infused the savory flavors of the Far East sandwiched between two chocolate wafers. Dip that in your sake.", price: 8.88}, {product: "Woof Washer 360", description: "Wash your dirty stinky mutt in minutes! Water and dog not included." , price: 9.29}, {product: "Sauna Pants", description: "Is it hot in here? Indeed. It's my pants. Look cool while losing weight.", price: 2.33}, {product: "Hug Me Pillow", description: "No more lonely nights as you snuggle with your best friend. And it will never walk out on you.", price: 599.99}];
+
+
+var pics = ["img/finger-tooth-brush/jpg", "img/manilow.jpg", "img/ramen-oreos.jpg", "img/woof-washer.jpg", "img/sauna-pants.jpg", "img/hugme.jpg"]
+
+for (var i = 0; i<stuff.length; i++){
+	//console.log(stuff[i]["product"])
+	var cartRow = document.createElement("div");
+	cartRow.className = "cartrow"
+	
+	var img = document.createElement("div");
+	img.className = "productPic"
+	img.src = pics[i]
+	cartRow.appendChild(img)
+
+	var productDiv = document.createElement("div");
+	productDiv.className = "product"
+	
+	var nameDiv = document.createElement("div")
+	nameDiv.className = "productNameDiv"
+	var nameH3 = document.createElement("h3");
+	nameH3.innerHTML = stuff[i]["product"]
+	var descText = document.createElement("p");
+	descText.className = "productDescription"
+	descText.innerHTML = stuff[i]["description"]
+	nameDiv.appendChild(nameH3);
+	nameDiv.appendChild(descText);
+
+	productDiv.appendChild(nameDiv)
+
+	var priceDiv = document.createElement("div")
+	priceDiv.className = "price"
+	priceDiv.innerHTML = stuff[i]["price"]
+	cartRow.appendChild(priceDiv)
+	console.log(priceDiv)
+
+	cartContainer.appendChild(cartRow)
+	//linebreak = document.createElement("br");
+	//itemsContainer.appendChild(linebreak)
+
+
+}
+

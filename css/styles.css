@@ -1,0 +1,64 @@
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: grey;
+}
+
+h1{
+	color:blue;
+}
+
+#shopping-cart{
+	background-color: white;
+	width: 750px;
+}
+
+#cartHeader{
+	background-color: #ed7825;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.itemsContainer{
+	margin: auto;
+
+}
+
+
+
+.cartrow{
+	width: 750px;
+	clear: both;
+	margin: 70px;
+	margin: auto;
+}
+
+.product{
+	float: left;
+	width: 230px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.description{
+	float: left;
+	width: 230px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.price{
+	float: left;
+	width: 230px;
+	margin: 5px;
+	padding: 5px;
+
+}
+
+
+
+
+/*margin-left, margin-right, float-left, float-right*/
