@@ -15,7 +15,7 @@ h1{
 }
 #container{
 	margin: 25px auto;
-	width: 800px;
+	width: 900px;
 	background-color: white;
 }
 
@@ -32,7 +32,7 @@ h1{
 }
 
 #logo{
-	float: right;
+	float: left;
 }
 
 #cartContainer{
@@ -42,7 +42,7 @@ h1{
 }
 
 .cartRow{
-	border-top: 3px grey;
+	border-top: 3px solid grey;
 	padding-top: 5px;
 }
 
@@ -62,58 +62,20 @@ h1{
 	text-align: right;
 }
 
-/*#shopping-cart{
-	background-color: white;
-	width: 750px;
-}
-
-#cartHeader{
-	background-color: #ed7825;
-}
-
-.clearfix:before,
-.clearfix:after {
-  content: "";
-  display: table;
-}
-
-.itemsContainer{
-	margin: auto;
-
-}
-
-
-
-.cartrow{
-	width: 750px;
+.subDivEl{
 	clear: both;
-	margin: 70px;
-	margin: auto;
+	padding-top: 5px;
+	border-top: 1px solid grey;
+	margin-left: 75px;
 }
 
-.product{
+.subLeftH3El{
 	float: left;
-	width: 230px;
-	margin: 5px;
-	padding: 5px;
-}
-
-.description{
-	float: left;
-	width: 230px;
-	margin: 5px;
-	padding: 5px;
-}
-
-.price{
-	float: left;
-	width: 230px;
-	margin: 5px;
-	padding: 5px;
 
 }
 
+.subRtH3El{
+	text-align: right;
+	float: right;
+}
 
-
-
-/*margin-left, margin-right, float-left, float-right*/

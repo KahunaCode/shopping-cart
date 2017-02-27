@@ -42,7 +42,30 @@ for (var i = 0; i<stuff.length; i++){
 	console.log(priceDiv)
 
 	cartContainer.appendChild(cartRow)
-	
-
 }
+
+var subTotal = 0
+for (var i =0; i<stuff.length; i++){
+	subTotal += stuff[i]["price"]
+}
+
+//console.log("subtotal = "+subTotal)
+var subDiv = document.createElement("div");
+subDiv.className = "subDivEl"
+var subLeft = document.createElement("div");
+var subLeftH3 = document.createElement("h3");
+subLeftH3.innerHTML = "Subtotal"
+subLeft.className = "subLeftH3El"
+subLeft.appendChild(subLeftH3);
+
+var subRt = document.createElement("div");
+var subRtH3 = document.createElement("h3");
+subRtH3.innerHTML = subTotal
+subRtH3.className = "subRtH3El"
+subRt.appendChild(subRtH3);
+
+subDiv.appendChild(subLeft);
+subDiv.appendChild(subRt);
+
+cartContainer.appendChild(subDiv)
 
