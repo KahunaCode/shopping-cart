@@ -15,9 +15,8 @@ h1{
 }
 #container{
 	margin: 25px auto;
-	width: 1200px;
+	width: 800px;
 	background-color: white;
-	border-radius: 15px;
 }
 
 #header{

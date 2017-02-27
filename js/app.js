@@ -42,9 +42,7 @@ for (var i = 0; i<stuff.length; i++){
 	console.log(priceDiv)
 
 	cartContainer.appendChild(cartRow)
-	//linebreak = document.createElement("br");
-	//itemsContainer.appendChild(linebreak)
-
+	
 
 }
 
